@@ -9,6 +9,11 @@ export default function Home() {
       </span>
       <h1 className="text-5xl font-bold tracking-tight">{appConfig.name}</h1>
       <p className="max-w-xl text-lg text-black/70">{appConfig.description}</p>
+      <p className="max-w-xl text-base text-black/60">
+        Connecting dogs, cats and other pets that need a home with people who
+        want to adopt, and making it easy to support the NGOs that care for
+        them.
+      </p>
       <Link
         href="/dashboard"
         className="rounded-full bg-accent px-6 py-3 font-medium text-white shadow-sm transition hover:opacity-90"
@@ -16,8 +21,7 @@ export default function Home() {
         Get early access →
       </Link>
       <p className="text-sm text-black/50">
-        This page is public. The early-access page should be for signed-in users
-        only.
+        Sign up to join the early-access list and see what&apos;s coming next.
       </p>
     </section>
   );
