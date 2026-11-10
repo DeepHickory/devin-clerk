@@ -18,7 +18,7 @@ export function Header() {
             <SignInButton>
               <button className="font-medium hover:text-accent">Sign in</button>
             </SignInButton>
-            <SignUpButton>
+            <SignUpButton forceRedirectUrl="/dashboard">
               <button className="rounded-full bg-accent px-4 py-2 font-medium text-white shadow-sm transition hover:opacity-90">
                 Sign up
               </button>
